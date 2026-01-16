@@ -12,6 +12,9 @@ header {
     padding-top: 50px;
     /* padding-left: 230px; */
     /* padding-right: ; */
+    background: url(../images/developer.png) , url(../images/header_bg.png) , #FFF8F3;
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
 }
 nav {
     margin: 0px auto;
@@ -48,4 +51,103 @@ nav .list a {
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
+}
+#banner {
+    margin-left: 230px;
+    margin-right: 38px;
+    margin-top: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#banner .bannercont {
+    max-width: 585px;
+}
+#banner .bannercont h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+
+}
+#banner .bannercont h1 {
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#banner .bannercont p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .bannerimg img {
+    max-width: 585px;
+    vertical-align: middle;
+}
+#about .aboutcont .aboutinfo {
+    display: flex;
+    justify-content: space-between;
+
+}
+#about {
+    padding-top: 130px ;
+    padding-bottom: 130px;
+}
+#about .aboutcont {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #FFF8F3;
+    padding-top: 131px;
+    padding-left: 156px;
+    padding-right: 157px;
+    padding-bottom: 131px;
+}
+.sechead {
+    max-width: 827px;
+    text-align: center;
+}
+.sechead h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.sechead p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#about .aboutcont .aboutinfo .infocard1 {
+    line-height: 30px;
+
+}
+#about .aboutcont .aboutinfo .infocard1 p {
+    font-size: 20px;
+    color: #757575;
+}
+#about .aboutcont .aboutinfo .infocard2 p {
+    font-size: 20px;
+    color: #757575;
+}
+#about .aboutcont .aboutinfo .infocard3 p {
+    font-size: 20px;
+    color: #757575;
+}
+#about .aboutcont .aboutinfo .infocard4 p {
+    font-size: 20px;
+    color: #757575;
+}
+#about .aboutcont .aboutinfo .infocard1 h4 {
+    font-size: 20px;
+}
+#about .aboutcont .aboutinfo .infocard2 h4 {
+    font-size: 20px;
+}
+#about .aboutcont .aboutinfo .infocard3 h4 {
+    font-size: 20px;
+}
+#about .aboutcont .aboutinfo .infocard4 h4 {
+    font-size: 20px;
 }
